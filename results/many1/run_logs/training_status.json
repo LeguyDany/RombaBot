@@ -1,0 +1,38 @@
+{
+    "Romba": {
+        "checkpoints": [
+            {
+                "steps": 499952,
+                "file_path": "results/many1/Romba/Romba-499952.onnx",
+                "reward": 0.6971479952335358,
+                "creation_time": 1746177970.877856,
+                "auxillary_file_paths": [
+                    "results/many1/Romba/Romba-499952.pt"
+                ]
+            },
+            {
+                "steps": 805223,
+                "file_path": "results/many1/Romba/Romba-805223.onnx",
+                "reward": 0.8663708319266638,
+                "creation_time": 1746178377.7199051,
+                "auxillary_file_paths": [
+                    "results/many1/Romba/Romba-805223.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 805223,
+            "file_path": "results/many1/Romba.onnx",
+            "reward": 0.8663708319266638,
+            "creation_time": 1746178377.7199051,
+            "auxillary_file_paths": [
+                "results/many1/Romba/Romba-805223.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.6.0"
+    }
+}
