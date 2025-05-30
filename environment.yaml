@@ -1,0 +1,30 @@
+name: romba
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - pytorch
+
+dependencies:
+  - pandas
+  - numpy
+  - plotly
+  - matplotlib
+  - seaborn
+  - azure-storage-blob
+  - scikit-learn
+  - pip
+  - pip:
+      - opencv-python
+      - opencv-python-headless
+      - opencv-contrib-python
+      - torch
+      - torchvision
+      - jupyterlab-lsp
+      - torchrl
+      - python-lsp-server
+      - jupyter
+      - notebook
+      - python-dotenv
+      - tqdm
+      - mlagents-envs
